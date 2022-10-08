@@ -87,4 +87,54 @@ return Ecourier::area()->branch();
 
 ```
 
+### 6. Delivery package list
+
+```
+use Codeboxr\EcourierCourier\Facade\Ecourier;
+
+return Ecourier::order()->packageList();
+
+```
+
+### 7. Delivery package list
+
+```
+use Codeboxr\EcourierCourier\Facade\Ecourier;
+
+return Ecourier::order()->packageList();
+
+```
+
+### 8. Create Parcel
+
+```
+use Codeboxr\EcourierCourier\Facade\Ecourier;
+
+return Ecourier::order()->create([
+    "ep_name"              => "",
+    "pick_contact_person"  => "",
+    "pick_district"        => "",
+    "pick_thana"           => "",
+    "pick_hub"             => "",
+    "pick_union"           => "",
+    "pick_address"         => "",
+    "pick_mobile"          => "",
+    "recipient_name"       => "",
+    "recipient_mobile"     => "",
+    "recipient_district"   => "",
+    "recipient_city"       => "",
+    "recipient_area"       => "",
+    "recipient_thana"      => "",
+    "recipient_union"      => "",
+    "package_code"         => "",
+    "recipient_address"    => "",
+    "parcel_detail"        => "",
+    "number_of_item"       => "",
+    "product_price"        => "",
+    "payment_method"       => "",
+    "ep_id"                => "",
+    "actual_product_price" => ""
+]);
+
+```
 
