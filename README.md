@@ -143,6 +143,6 @@ return Ecourier::order()->create([
 ```
 use Codeboxr\EcourierCourier\Facade\Ecourier;
 
-return Ecourier::order()->tracking($trackingId); //$trackingId find when create parecel they give you ID
+return Ecourier::order()->tracking($trackingId); //$trackingId find when create parcel they give you ID
 
 ```
