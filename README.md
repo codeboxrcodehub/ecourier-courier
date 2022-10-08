@@ -138,3 +138,11 @@ return Ecourier::order()->create([
 
 ```
 
+### 9. Delivery package list
+
+```
+use Codeboxr\EcourierCourier\Facade\Ecourier;
+
+return Ecourier::order()->tracking($trackingId); //$trackingId find when create parecel they give you ID
+
+```
