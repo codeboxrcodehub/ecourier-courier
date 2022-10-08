@@ -111,29 +111,29 @@ return Ecourier::order()->packageList();
 use Codeboxr\EcourierCourier\Facade\Ecourier;
 
 return Ecourier::order()->create([
-    "ep_name"              => "",
-    "pick_contact_person"  => "",
-    "pick_district"        => "",
-    "pick_thana"           => "",
-    "pick_hub"             => "",
-    "pick_union"           => "",
-    "pick_address"         => "",
-    "pick_mobile"          => "",
-    "recipient_name"       => "",
-    "recipient_mobile"     => "",
-    "recipient_district"   => "",
-    "recipient_city"       => "",
-    "recipient_area"       => "",
-    "recipient_thana"      => "",
-    "recipient_union"      => "",
-    "package_code"         => "",
-    "recipient_address"    => "",
-    "parcel_detail"        => "",
-    "number_of_item"       => "",
-    "product_price"        => "",
-    "payment_method"       => "",
-    "ep_id"                => "",
-    "actual_product_price" => ""
+    "ep_name"              => "", // eCommerce Partner (EP) Name
+    "pick_contact_person"  => "", // Contact Person of provided ep
+    "pick_district"        => "", // Pickup district name
+    "pick_thana"           => "", // Pickup thana name
+    "pick_hub"             => "", // Pickup branch id 
+    "pick_union"           => "", // Pickup union 
+    "pick_address"         => "", // Pickup address
+    "pick_mobile"          => "", // Pickup person contact number
+    "recipient_name"       => "", // Parcel receiver’s name
+    "recipient_mobile"     => "", // Parcel receiver’s mobile number
+    "recipient_district"   => "", // Parcel receiver’s district name
+    "recipient_city"       => "", // Parcel receiver’s city name
+    "recipient_area"       => "", // Parcel receiver’s area name
+    "recipient_thana"      => "", // Parcel receiver’s thana name
+    "recipient_union"      => "", // Parcel receiver’s union name
+    "package_code"         => "", // Package code find in package API
+    "recipient_address"    => "", // Parcel receiver’s full address
+    "parcel_detail"        => "", // Parcel product or documents details
+    "number_of_item"       => "", // Total quantity
+    "product_price"        => "", // Receive amount from parcel receiver’s
+    "payment_method"       => "", // Cash On Delivery – COD,Point of Sale – POS, Mobile Payment – MPAY, Card Payment – CCRD
+    "ep_id"                => "", // Invoice Id 
+    "actual_product_price" => "" // Parcel product actual price
 ]);
 
 ```
