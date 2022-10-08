@@ -41,3 +41,50 @@ ECOURIER_USER_ID=""
 ```
 
 ## Usage
+
+### 1. Get ecourier delivery city list
+
+```
+use Codeboxr\EcourierCourier\Facade\Ecourier;
+
+return Ecourier::area()->city();
+
+```
+
+### 2. Get ecourier delivery thana/upzilla list
+
+```
+use Codeboxr\EcourierCourier\Facade\Ecourier;
+
+return Ecourier::area()->thana($cityName);
+
+```
+
+### 3. Get ecourier delivery postcode list
+
+```
+use Codeboxr\EcourierCourier\Facade\Ecourier;
+
+return Ecourier::area()->postcode($cityName,$thanaName);
+
+```
+
+### 4. Get ecourier delivery postcode area list
+
+```
+use Codeboxr\EcourierCourier\Facade\Ecourier;
+
+return Ecourier::area()->areaList($postcode);
+
+```
+
+### 5. Get ecourier branch list
+
+```
+use Codeboxr\EcourierCourier\Facade\Ecourier;
+
+return Ecourier::area()->branch();
+
+```
+
+
