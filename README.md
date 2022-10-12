@@ -18,7 +18,8 @@ This is a Laravel/PHP package for [Ecourier](https://ecourier.com.bd/) BD Courie
 4. [Fetch Ecourier delivery/store postcode area list](https://github.com/codeboxrcodehub/ecourier-courier#4-get-ecourier-delivery-postcode-area-list)
 5. [Fetch Ecourier delivery/store branch list](https://github.com/codeboxrcodehub/ecourier-courier#5-get-ecourier-branch-list)
 6. [Fetch Ecurier delivery package lsit](https://github.com/codeboxrcodehub/ecourier-courier#6-delivery-package-list)
-7. [Fetch Parcel Details](https://github.com/codeboxrcodehub/ecourier-courier#7-get-order-details)
+7. [Create parcel](https://github.com/codeboxrcodehub/ecourier-courier#7-create-parcel)
+8. [Create parcel](https://github.com/codeboxrcodehub/ecourier-courier#7-create-parcel)
 
 
 ## Requirements
