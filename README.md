@@ -8,6 +8,19 @@
 <img src="https://img.shields.io/packagist/stars/codeboxr/ecourier-courier">
 </p>
 
+This is a Laravel/PHP package for [Ecourier](https://ecourier.com.bd/) BD Courier System. This package can be used in laravel or without laravel/php projects. You can use this package for headless/rest implementation as well as blade or regular mode development. We created this package while working for a project and thought to made it release for all so that it helps. This package is available as regular php [composer package](https://packagist.org/packages/codeboxr/ecourier-courier).
+
+## Features
+
+1. [Fetch Ecourier delivery/store city list](https://github.com/codeboxrcodehub/ecourier-courier#1-get-ecourier-delivery-city-list)
+2. [Fetch Ecourier delivery/store thana/upzilla list](https://github.com/codeboxrcodehub/ecourier-courier#2-get-ecourier-delivery-thanaupzilla-list)
+3. [Fetch Ecourier delivery/store postcode list](https://github.com/codeboxrcodehub/ecourier-courierr#3get-ecourier-delivery-postcode-list)
+4. [Fetch Ecourier delivery/store postcode area list](https://github.com/codeboxrcodehub/ecourier-courier#4-get-ecourier-delivery-postcode-area-list)
+5. [Fetch Ecourier delivery/store branch list](https://github.com/codeboxrcodehub/ecourier-courier#5-get-ecourier-branch-list)
+6. [Fetch Ecurier delivery package lsit](https://github.com/codeboxrcodehub/ecourier-courier#6-delivery-package-list)
+7. [Fetch Parcel Details](https://github.com/codeboxrcodehub/ecourier-courier#7-get-order-details)
+
+
 ## Requirements
 
 - PHP >=7.4
@@ -96,16 +109,7 @@ return Ecourier::order()->packageList();
 
 ```
 
-### 7. Delivery package list
-
-```
-use Codeboxr\EcourierCourier\Facade\Ecourier;
-
-return Ecourier::order()->packageList();
-
-```
-
-### 8. Create Parcel
+### 7. Create Parcel
 
 ```
 use Codeboxr\EcourierCourier\Facade\Ecourier;
@@ -138,7 +142,7 @@ return Ecourier::order()->create([
 
 ```
 
-### 9. Delivery package list
+### 8. Delivery package list
 
 ```
 use Codeboxr\EcourierCourier\Facade\Ecourier;
