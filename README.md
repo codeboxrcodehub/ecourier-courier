@@ -143,7 +143,7 @@ return Ecourier::order()->create([
 
 ```
 
-### 8. Delivery package list
+### 8. Parcel tracking
 
 ```
 use Codeboxr\EcourierCourier\Facade\Ecourier;
