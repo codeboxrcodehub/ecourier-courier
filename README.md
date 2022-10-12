@@ -14,7 +14,7 @@ This is a Laravel/PHP package for [Ecourier](https://ecourier.com.bd/) BD Courie
 
 1. [Fetch Ecourier delivery/store city list](https://github.com/codeboxrcodehub/ecourier-courier#1-get-ecourier-delivery-city-list)
 2. [Fetch Ecourier delivery/store thana/upzilla list](https://github.com/codeboxrcodehub/ecourier-courier#2-get-ecourier-delivery-thanaupzilla-list)
-3. [Fetch Ecourier delivery/store postcode list](https://github.com/codeboxrcodehub/ecourier-courierr#3get-ecourier-delivery-postcode-list)
+3. [Fetch Ecourier delivery/store postcode list](https://github.com/codeboxrcodehub/ecourier-courier#3get-ecourier-delivery-postcode-list)
 4. [Fetch Ecourier delivery/store postcode area list](https://github.com/codeboxrcodehub/ecourier-courier#4-get-ecourier-delivery-postcode-area-list)
 5. [Fetch Ecourier delivery/store branch list](https://github.com/codeboxrcodehub/ecourier-courier#5-get-ecourier-branch-list)
 6. [Fetch Ecurier delivery package lsit](https://github.com/codeboxrcodehub/ecourier-courier#6-delivery-package-list)
