@@ -151,3 +151,17 @@ use Codeboxr\EcourierCourier\Facade\Ecourier;
 return Ecourier::order()->tracking($trackingId); //$trackingId find when create parcel they give you ID
 
 ```
+
+
+## Contributing
+
+Contributions to the Ecourier package are welcome. Please note the following guidelines before submitting your pull request.
+
+- Follow [PSR-4](http://www.php-fig.org/psr/psr-4/) coding standards.
+- Read Ecourier API documentations first
+
+## License
+
+Ecourier package is licensed under the [MIT License](http://opensource.org/licenses/MIT).
+
+Copyright 2022 [Codeboxr](https://codeboxr.com)
