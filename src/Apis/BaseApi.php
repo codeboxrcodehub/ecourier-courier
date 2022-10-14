@@ -6,6 +6,7 @@ use  GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\ClientException;
 use Codeboxr\EcourierCourier\Exceptions\EcourierException;
+use Codeboxr\EcourierCourier\Exceptions\EcourierValidationException;
 
 class BaseApi
 {
@@ -100,6 +101,37 @@ class BaseApi
             $message  = implode(",", $response->errors);
             throw new EcourierException($message, $e->getCode(), $response->errors);
         }
+    }
+
+    /**
+     * Ecourier validation
+     *
+     * @param array $data
+     * @param array $requiredFileds
+     *
+     * @throws EcourierValidationException
+     */
+    public function validation($data, $requiredFileds)
+    {
+        if (!is_array($data) || !is_array($requiredFileds)) {
+            throw new \TypeError("Argument must be of the type array", 500);
+        }
+
+        if (!count($data) || !count($requiredFileds)) {
+            throw new EcourierValidationException("Invalid data!", 422);
+        }
+
+        $requiredColumns = array_diff($requiredFileds, array_keys($data));
+        if (count($requiredColumns)) {
+            throw new EcourierValidationException($requiredColumns, 422);
+        }
+
+        foreach ($requiredFileds as $filed) {
+            if (isset($data[$filed]) && empty($data[$filed])) {
+                throw new EcourierValidationException("$filed is required", 422);
+            }
+        }
+
     }
 
 }
